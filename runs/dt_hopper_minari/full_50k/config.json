@@ -1,0 +1,28 @@
+{
+  "state_dim": 11,
+  "act_dim": 3,
+  "hidden_size": 128,
+  "n_layer": 3,
+  "n_head": 1,
+  "context_len": 20,
+  "max_timestep": 1000,
+  "dropout": 0.1,
+  "norm_position": "pre",
+  "action_tanh": true,
+  "num_updates": 50000,
+  "batch_size": 64,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "warmup_updates": 10000,
+  "eval_every": 5000,
+  "eval_episodes": 20,
+  "final_eval_episodes": 100,
+  "target_returns": [
+    1800.0,
+    3600.0
+  ],
+  "seed": 0,
+  "device": "cuda",
+  "smoke": false,
+  "param_count": 727695
+}

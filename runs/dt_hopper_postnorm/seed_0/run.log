@@ -1,0 +1,27 @@
+Loading dataset...
+Model parameters: 727,695
+Running sanity checks...
+Sanity checks: PASS
+Evaluating random policy...
+Random policy mean return: 15.3
+Starting training...
+
+[STATUS] update 0/50000, train_mse=N/A, val_mse=N/A, eval_3600=7.2, eval_1800=7.2, elapsed=0.0m
+
+[STATUS] update 5000/50000, train_mse=0.0968, val_mse=0.0869, eval_3600=1454.9, eval_1800=1579.0, elapsed=1.7m
+
+[STATUS] update 10000/50000, train_mse=0.0711, val_mse=0.0773, eval_3600=2318.0, eval_1800=2792.1, elapsed=4.1m
+
+[STATUS] update 15000/50000, train_mse=0.0639, val_mse=0.0641, eval_3600=3285.6, eval_1800=3175.0, elapsed=6.9m
+
+[STATUS] update 20000/50000, train_mse=0.0575, val_mse=0.0642, eval_3600=2694.2, eval_1800=2857.7, elapsed=9.4m
+
+[STATUS] update 25000/50000, train_mse=0.0510, val_mse=0.0569, eval_3600=3125.8, eval_1800=2781.8, elapsed=12.0m
+
+[STATUS] update 30000/50000, train_mse=0.0564, val_mse=0.0648, eval_3600=3462.1, eval_1800=3458.7, elapsed=15.0m
+
+[STATUS] update 35000/50000, train_mse=0.0510, val_mse=0.0562, eval_3600=3076.2, eval_1800=3038.9, elapsed=17.6m
+
+[STATUS] update 40000/50000, train_mse=0.0491, val_mse=0.0527, eval_3600=3583.0, eval_1800=3574.7, elapsed=20.7m
+
+[STATUS] update 45000/50000, train_mse=0.0471, val_mse=0.0464, eval_3600=3542.4, eval_1800=3542.3, elapsed=23.8m

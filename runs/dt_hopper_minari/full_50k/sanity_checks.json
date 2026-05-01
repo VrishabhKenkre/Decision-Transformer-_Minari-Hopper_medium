@@ -1,0 +1,50 @@
+{
+  "forward_shapes": {
+    "action_preds": [
+      4,
+      20,
+      3
+    ],
+    "state_preds": [
+      4,
+      20,
+      11
+    ],
+    "return_preds": [
+      4,
+      20,
+      1
+    ],
+    "expected_action": [
+      4,
+      20,
+      3
+    ],
+    "expected_state": [
+      4,
+      20,
+      11
+    ],
+    "expected_return": [
+      4,
+      20,
+      1
+    ],
+    "pass": true
+  },
+  "loss_grad_finite": {
+    "loss": 0.37885841727256775,
+    "loss_finite": true,
+    "grads_finite": true,
+    "pass": true
+  },
+  "tiny_overfit": {
+    "n_trajectories": 4,
+    "n_updates": 500,
+    "initial_loss": 0.4615632891654968,
+    "final_loss": 0.10323343425989151,
+    "pct_decrease": 77.63395736911127,
+    "pass": true
+  },
+  "all_pass": true
+}

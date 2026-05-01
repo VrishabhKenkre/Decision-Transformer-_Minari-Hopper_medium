@@ -1,0 +1,34 @@
+Loading dataset...
+Model parameters: 727,695
+Running sanity checks...
+Sanity checks: PASS
+Evaluating random policy...
+Random policy mean return: 22.4
+Starting training...
+
+[STATUS] update 0/50000, train_mse=N/A, val_mse=N/A, eval_3600=11.0, eval_1800=10.9, elapsed=0.0m
+
+[STATUS] update 5000/50000, train_mse=0.0915, val_mse=0.0816, eval_3600=1058.1, eval_1800=1339.5, elapsed=1.7m
+
+[STATUS] update 10000/50000, train_mse=0.0738, val_mse=0.0746, eval_3600=1737.2, eval_1800=1548.5, elapsed=3.7m
+
+[STATUS] update 15000/50000, train_mse=0.0606, val_mse=0.0604, eval_3600=2031.7, eval_1800=2242.4, elapsed=6.0m
+
+[STATUS] update 20000/50000, train_mse=0.0594, val_mse=0.0557, eval_3600=2629.4, eval_1800=2323.8, elapsed=8.5m
+
+[STATUS] update 25000/50000, train_mse=0.0566, val_mse=0.0529, eval_3600=3135.0, eval_1800=2777.6, elapsed=11.4m
+
+[STATUS] update 30000/50000, train_mse=0.0516, val_mse=0.0519, eval_3600=3549.5, eval_1800=3486.4, elapsed=14.8m
+
+[STATUS] update 35000/50000, train_mse=0.0511, val_mse=0.0491, eval_3600=3004.2, eval_1800=2285.7, elapsed=17.4m
+
+[STATUS] update 40000/50000, train_mse=0.0521, val_mse=0.0506, eval_3600=3524.5, eval_1800=3514.5, elapsed=20.8m
+
+[STATUS] update 45000/50000, train_mse=0.0494, val_mse=0.0479, eval_3600=3147.7, eval_1800=2583.0, elapsed=23.6m
+
+[STATUS] update 50000/50000, train_mse=0.0465, val_mse=0.0496, eval_3600=3546.1, eval_1800=3504.3, elapsed=36.5m
+
+Training complete. Conclusion: PASS
+Artifacts saved to: runs/dt_hopper_baseline/seed_2
+Best eval return (target 3600): 3549.5
+Random policy return: 22.4

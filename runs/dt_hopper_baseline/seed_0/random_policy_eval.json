@@ -1,0 +1,10 @@
+{
+  "mean_return": 14.802869862825196,
+  "std_return": 18.89871484781907,
+  "min_return": 3.5061264215921124,
+  "max_return": 93.57600304697671,
+  "median_return": 8.835470482137936,
+  "mean_length": 20.75,
+  "std_length": 14.67949249803957,
+  "n_episodes": 20
+}
